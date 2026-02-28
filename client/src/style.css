@@ -1,0 +1,47 @@
+.logo {
+  height: 4rem;
+  padding: 1rem;
+  transition: filter 300ms;
+}
+
+/* client/src/style.css */
+
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;           /* space between logo and title */
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Basic Card Layout */
+#main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.top-container {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.bottom-container {
+  padding: 15px;
+}
