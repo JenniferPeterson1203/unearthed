@@ -1,5 +1,7 @@
 // Import the Express framework to create our web server
 import express from 'express'
+// Import the 'dotenv' package to load environment variables from a .env file
+import './config/dotenv.js'
 //import the router from routes/gifts.js to handle requests related to gifts
 import giftsRouter from './routes/gifts.js'
 
@@ -28,3 +30,4 @@ const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
   console.log(`🚀 Server listening on http://localhost:${PORT}`)
 })
+
